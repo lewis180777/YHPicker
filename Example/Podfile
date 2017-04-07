@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'YHPicker_Example' do
+  pod 'YHPicker', :path => '../'
+
+  target 'YHPicker_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
