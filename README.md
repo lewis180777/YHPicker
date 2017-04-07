@@ -1,5 +1,6 @@
 # YHPicker
 
+
 [![CI Status](http://img.shields.io/travis/lewis180777/YHPicker.svg?style=flat)](https://travis-ci.org/lewis180777/YHPicker)
 [![Version](https://img.shields.io/cocoapods/v/YHPicker.svg?style=flat)](http://cocoapods.org/pods/YHPicker)
 [![License](https://img.shields.io/cocoapods/l/YHPicker.svg?style=flat)](http://cocoapods.org/pods/YHPicker)
@@ -27,3 +28,6 @@ lewis180777, 491099116@qq.com
 ## License
 
 YHPicker is available under the MIT license. See the LICENSE file for more info.
+
+封装系统调用相机与选择照片功能
+
