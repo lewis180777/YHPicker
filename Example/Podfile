@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'YHPicker_Example' do
-  pod 'YHPicker', :path => '../'
+  pod 'YHPicker', :path => '../YHPicker.podspec'
 
   target 'YHPicker_Tests' do
     inherit! :search_paths

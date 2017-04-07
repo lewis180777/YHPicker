@@ -7,6 +7,7 @@
 //
 
 #import "YHViewController.h"
+#import <YHPicker/YHPicker.h>
 
 @interface YHViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,6 +27,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [[YHUIImagePicker sharedInstance] showImagePickerViewController:self selectImagePickerType:NO isVideo:NO withSucessBlock:^(id response) {
+        
+        
+    }];
 }
 
 @end
